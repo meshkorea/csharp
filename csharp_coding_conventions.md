@@ -2,8 +2,9 @@ Architecture
 -------------
 
 기능에 맞게 모듈과 레이어를 구성하고 관련 모듈별로 솔루션 폴더로 묶는다.
-
 > UI와 비즈니스 로직 관련 모듈은 반드시 분리하고 UI모듈에서 DB나 네트워크같은 의존성 높은 코드를 작성하지 않는다.
+
+![](image/architecture.jpg?raw=true)
 
 관련 모듈은 루트명을 통일하고 . 을 사용하여 하위명을 생성한다.
 
@@ -12,6 +13,8 @@ Architecture
 
 Config 파일을 통해 빌드 환경을 관리한다.
 > Slow Cheetah
+
+![](image/slowcheetah.jpg?raw=true)
 
 ----------
 
