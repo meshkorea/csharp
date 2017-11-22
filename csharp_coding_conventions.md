@@ -261,13 +261,13 @@ UI 관련 작업은 최대한 xaml을 사용한다.
 > 테마 변경에 유용
 
 뷰모델과 같은 형식의 Design 뷰모델을 작성하여 샘플 데이터를 제공한다.
-> Blend 작업시 데이터를 미리 확인할 수 있고 실행전에 미리 테스트 할 수 있다.
+> Blend 작업시 데이터를 미리 확인할 수 있고 실행전에 미리 테스트 할 수 있다.  
 > d:DataContext="{d:DesignInstance IsDesignTimeCreatable=True, Type={x:Type designVm:DesignMainViewModel}}"
 
 ----------
 
 ### Reference
-[1] https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
-[2] http://www.dofactory.com/reference/csharp-coding-standards
-[3] http://www.csharpstudy.com/Guide/coding-guide.aspx
-[4] http://se.inf.ethz.ch/old/teaching/ss2007/251-0290-00/project/CSharpCodingStandards.pdf
+[1] https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/inside-a-program/coding-conventions  
+[2] http://www.dofactory.com/reference/csharp-coding-standards  
+[3] http://www.csharpstudy.com/Guide/coding-guide.aspx  
+[4] http://se.inf.ethz.ch/old/teaching/ss2007/251-0290-00/project/CSharpCodingStandards.pdf  
