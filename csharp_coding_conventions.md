@@ -260,6 +260,10 @@ UI 관련 작업은 최대한 xaml을 사용한다.
 공통적인 스타일이나 템플릿은 리소스 파일로 구분하여 작성한다.
 > 테마 변경에 유용
 
+뷰모델과 같은 형식의 Design 뷰모델을 작성하여 샘플 데이터를 제공한다.
+> Blend 작업시 데이터를 미리 확인할 수 있고 실행전에 미리 테스트 할 수 있다.
+> d:DataContext="{d:DesignInstance IsDesignTimeCreatable=True, Type={x:Type designVm:DesignMainViewModel}}"
+
 ----------
 
 ### Reference
