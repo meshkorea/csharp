@@ -1,7 +1,7 @@
 | Key  | Description |
 | ------------- | ------------- |
-| CRTL + ,  | 파일 검색  |
-| CRTL + G | Go to line |
+| CTRL + ,  | 파일 검색  |
+| CTRL + G | Go to line |
 | CTRL + ALT + L  | 솔루션 탐색기에서 현재 파일 폴더 선택  |
 | CTRL + [ + S  | 솔루션 탐색기에서 현재 파일 선택  |
 | CTRL + W + S | 솔루션 탐색기창 열기 |
