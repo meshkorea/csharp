@@ -103,6 +103,32 @@ bool 값을 리턴하는 경우 is, has, can 등의 접두어를 사용한다.
 > Exception, Collection, EventArgs, Delegate, Attribute, Command, Behavior, Converter
 > NotFound -> NotFoundException
 
+Naming Convention 표
+- "c" : camelCase
+- "p" : PascalCase
+- "_" : Prefix with underscore
+- "-" : Not applicable
+
+|구분자|Public|Protected|Internal|Private|기타|
+|--|--|--|--|--|--|
+|프로젝트 파일|P|-|-|-|어셈블리, 네임스페이스와 일치시킨다|
+|소스 파일|P|-|-|-||
+|기타 파일|P|-|-|-||
+|네임스페이스|P|-|-|-||
+|클래스 또는 구조체|P|P|P|P|하위 클래스의 접미사 추가|
+|인터페이스|P|P|P|P|대문자 `I`로 시작한다|
+|제네릭 클래스|P|P|P|P|타입 구분자로 `T` 또는 `K`를 사용한다|
+|메서드|P|P|P|P|동사 또는 동사-목적어 조합으로 사용한다|
+|속성|P|P|P|P|`Get` 또는 `Set`을 접두사로 하지 않는다|
+|필드|P|P|P|_c|Private 필드만 사용한다. **헝가리안 표시법을 사용하지 않는다**|
+|상수|P|P|P|_c||
+|정적 필드|P|P|P|_c|Private 필드만 사용한다|
+|열거|P|P|P|P|열거 항목도 파스칼 케이스로 작성한다|
+|델리게이트|P|P|P|P||
+|이벤트|P|P|P|P||
+|인라인 변수|-|-|-|c|단일 단어와 열거 이름(enumerated name)을 피한다|
+|매개 변수|-|-|-|c||
+
 ----------
 
 
